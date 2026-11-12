@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-dbr3cc08v5cc738rb17g-a.oregon-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Render PostgreSQL",
+            "database": "knowledge_assistant_ai",
+            "username": "knowledge_assistant_ai_user"
+        }
+    ]
+}
